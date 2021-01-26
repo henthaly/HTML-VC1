@@ -1,37 +1,76 @@
-body{
-    margin:0;
-    padding:0;
-    background:rgb(177, 218, 243);
+*{
+    margin: 0px;
+    padding: 0px;
 }
-.rectangle{
-    width:60%;
-    height:35vh;
-    background:rgb(122, 126, 129);
-    margin-left:30%;
+body{
+   
+    font-family: sans-serif;
+}
+
+nav{
+    background:url("Photo/PNC.jpg");
+    height:100vh;
+    opacity:70%;
+}
+
+.logo{
+    background:rgb(214, 16, 214);
+    width:30%;
+    height:100vh;
+    padding-top:0;
+    opacity:80%;
+
+}
+li,a{
+    
+    list-style-type: none;
+    text-decoration: none;
+    margin-left:100px;
+    padding:15px;
+    color:snow;
+}
+a:hover{
+    background:black;
+}
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h3{
+    margin-top:20px;
+    margin-left: 20px;
+}
+h5{
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+button:hover{
+    background:rgb(240, 72, 42);
+}
+p{
+    margin-left: 5%;
+}
+footer{
+    background:rgb(110, 99, 99);
+    height:15vh;
+    padding-top: 10px;
+    color:rgb(11, 192, 11);
+}
+    
+
+img{
+    width:40px;
+    height:40px;
+    
+}
+.dropbtn{
+    width:80px;
+    height:50px;
+    background:hotpink;
+    text-align: center;
+    margin-left: 90%;
     border-radius: 10px;
 }
-ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display:flex;
-        padding:20px;
-}
-li{
-    padding:20px;
-    text-decoration:none;
-}
-ul,li,a{
-    text-decoration:none;
-    color:rgb(243, 213, 213);
-
-   
-
-}
-img {
-    border-radius: 50%;
-    width:300px;
-    height:300px;
-    margin:50px;
-  }
-
