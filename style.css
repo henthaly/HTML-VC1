@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 body{
    
     font-family: sans-serif;
@@ -9,46 +6,46 @@ body{
 
 nav{
     background:url("Photo/PNC.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     height:100vh;
     opacity:70%;
 }
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
 
-.logo{
-    background:rgb(214, 16, 214);
-    width:30%;
+}
+
+
+.item1{
+    grid-column-start: 1/2;
+    grid-row: 1/3;
+    background:rgb(26, 23, 23);
+    width:80%;
     height:100vh;
-    padding-top:0;
-    opacity:80%;
 
 }
-li,a{
-    
-    list-style-type: none;
-    text-decoration: none;
-    margin-left:100px;
-    padding:15px;
-    color:snow;
+.item2{
+    text-align: center; 
+    margin-top: 10%;
+    width:70%;
+    height:50vh;
+    background:rgb(59, 240, 59);
+    opacity:60%;
+    font-size: 50px;
+    color:red;
 }
-a:hover{
-    background:black;
+.item3{
+    width:200%;
+    background:rgb(61, 58, 58);
+    padding:10px;
+    display:flex;
 }
-.avatar {
-    vertical-align: middle;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-h3{
-    margin-top:20px;
-    margin-left: 20px;
-}
-h5{
-    margin-top:20px;
-    margin-left: 20px;
-}
-
-button:hover{
-    background:rgb(240, 72, 42);
+p{
+    font-size: 20px;
+    color:black;
 }
 p{
     margin-left: 5%;
@@ -66,11 +63,44 @@ img{
     height:40px;
     
 }
-.dropbtn{
-    width:80px;
-    height:50px;
-    background:hotpink;
-    text-align: center;
-    margin-left: 90%;
+
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+    color:rgb(187, 15, 15);
+    margin-left: 40%;
+    padding:10px;
+}
+a:hover{
+    background:mediumblue;
+    border-radius: 3px;
+}
+.logo{
+    background:palevioletred;
+    width:150px;
+    height:150px;
     border-radius: 10px;
+}
+h3{
+    color:rgb(187, 15, 15);
+}
+h4{
+    color:mediumpurple;
+}
+h5{
+    font-size: 15px;
+}
+.to-contact{
+    text-align: center;
+    padding-top: -10px;
+    margin-left: 30%;
+}
+.more-button{
+    margin-left: 40%;
+    padding-top: 10%;
+}
+.dropbtn{
+    text-align: center;
+   
+    
 }
