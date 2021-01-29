@@ -39,7 +39,7 @@ ul{
     background:url("image-home/camera.jpg");
     margin-left: 10px;
     text-align: center;
-    opacity:50%;
+    opacity:70%;
     background-position: center;
     background-size: cover;
 }
@@ -85,7 +85,7 @@ h2,h6{
     display: flex;
 }
 .footer{
-    background:rgb(179, 172, 162);
+    background:lightslategrey;
     height:20vh;
 }
 .contact{
@@ -131,4 +131,27 @@ i{
 .second,.third{
     margin-left: 10%;
 }
+@media(max-width:500px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "itme2"
+        "item1";
+    }
+    .item1,.item2{
+        width:470px;
 
+    }
+    .logo{
+        width:200px;
+        height:150px;
+        border-radius: 100px;
+    }
+    .text{
+        width:470px;
+        height:300px;
+    }
+    .footer{
+        height:30vh;
+    }
+}
