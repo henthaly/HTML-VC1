@@ -31,14 +31,13 @@ i{
 }
 .item1{
     background:darkturquoise;
-    height:165vh;
+    height:160vh;
     
     
 }
 .item3{
     
     width:600px;
-    height:500px;
 } 
 .photo{
     width:230px;
@@ -84,10 +83,6 @@ h3{
 }
 .img{
     display: flex;
-}
-.personal-profile{
-
-   
 }
 p{
     margin-left: 5px;
